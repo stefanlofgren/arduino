@@ -4,6 +4,7 @@
 #include <TinyGPS++.h>
 
 /////////////////////////// -------   GPS Configuration ---------- /////////////////
+// This is specificall for: Arduino Uno, Adafruit Ultimate GPS Datalogging Shield, and the TinyGPS++ Library.  
 static const int RXPin = 8, TXPin = 7;
 static const uint32_t GPSBaud = 9600;
 
